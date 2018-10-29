@@ -1,14 +1,61 @@
-body {
+body,html{
+  /*margin: 0 auto;*/
+  text-align: center;
   margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.variable{
+  background-color: blueviolet;
+  color: white;
+  margin-top: 0;
+  padding: 15px 0;
+}
+
+.variable label{
+  position: relative;
+  animation: ani_variable alternate-reverse 3.5s infinite;
+}
+
+.function{
+  font-size: 25px;
+  font-weight: bolder;
+  animation: ani_function 3s infinite;
+  background-color: darkblue;
+  padding: 20px;
+  color: white;
+}
+
+.attribute{
+  margin-top: 20px;
+}
+
+.attribute img{
+  margin-top: 15px;
+  height: 50px;
+  animation: ani_attribute_img 2s infinite linear;
+}
+
+.attribute div{
+}
+
+.container{
+
+}
+
+@keyframes ani_variable {
+  from{left:-400px;}
+  to{left: 400px;}
+}
+
+@keyframes ani_function {
+  5% {color: beige;}
+  25% {color: chartreuse;}
+  50% {color: crimson;}
+  75% {color: gold;}
+  100% {color: magenta;}
+}
+
+@keyframes ani_attribute_img {
+  from{transform: rotate(0deg)}
+  to{transform: rotate(360deg)}
 }
