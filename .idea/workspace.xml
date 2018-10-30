@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4b6e6431-4c72-4510-844c-4859ff52b0a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -79,7 +78,7 @@
           <entry key="html" value="15" />
           <entry key="js" value="19" />
           <entry key="json" value="2" />
-          <entry key="md" value="9" />
+          <entry key="md" value="10" />
           <entry key="rnc" value="1" />
           <entry key="svg" value="5" />
         </counts>
@@ -90,7 +89,7 @@
           <entry key="HTML" value="15" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="19" />
-          <entry key="Markdown" value="9" />
+          <entry key="Markdown" value="10" />
           <entry key="RNG Compact" value="1" />
           <entry key="SVG" value="5" />
         </counts>
@@ -99,8 +98,8 @@
         <counts>
           <entry key="css" value="930" />
           <entry key="html" value="267" />
-          <entry key="js" value="3767" />
-          <entry key="md" value="473" />
+          <entry key="js" value="3768" />
+          <entry key="md" value="484" />
           <entry key="svg" value="32" />
         </counts>
       </usages-collector>
@@ -108,8 +107,8 @@
         <counts>
           <entry key="CSS" value="930" />
           <entry key="HTML" value="267" />
-          <entry key="JavaScript" value="3767" />
-          <entry key="Markdown" value="473" />
+          <entry key="JavaScript" value="3768" />
+          <entry key="Markdown" value="484" />
           <entry key="SVG" value="32" />
         </counts>
       </usages-collector>
@@ -132,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day_7_events/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -142,10 +141,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="338">
+                <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day_7_events/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -202,10 +213,10 @@
         <option value="$PROJECT_DIR$/day_6_state/public/index.html" />
         <option value="$PROJECT_DIR$/day_6_state/src/index.js" />
         <option value="$PROJECT_DIR$/day_6_state/src/index.css" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/day_7_events/public/index.html" />
-        <option value="$PROJECT_DIR$/day_7_events/src/index.js" />
         <option value="$PROJECT_DIR$/day_7_events/src/index.css" />
+        <option value="$PROJECT_DIR$/day_7_events/src/index.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -260,18 +271,6 @@
               <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactjs" type="462c0819:PsiDirectoryNode" />
               <item name="day_7_events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-              <item name="day_7_events" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-              <item name="day_7_events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,12 +336,12 @@
       <workItem from="1540537034748" duration="7673000" />
       <workItem from="1540775271521" duration="14269000" />
       <workItem from="1540797818555" duration="7530000" />
-      <workItem from="1540861363988" duration="19316000" />
+      <workItem from="1540861363988" duration="19598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48788000" />
+    <option name="totallyTimeSpent" value="49070000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -574,16 +573,6 @@
     <entry file="file://$PROJECT_DIR$/day_7_events/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="376">
-            <caret line="39" selection-start-line="39" selection-end-line="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day_7_events/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -591,20 +580,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day_7_events/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day_7_events/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day_7_events/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="338">
+            <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

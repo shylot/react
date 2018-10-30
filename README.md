@@ -35,6 +35,7 @@ npm start
 该项目通过时钟的例子来说明React中State以及Lifecycle的概念。
 
 ### 2.7 day_7_events
+待续...
 
 
 
