@@ -37,6 +37,11 @@ body {
   color:white;
 }
 
+#after_composing_props{
+  float: left;
+  padding: 0 50px;
+  color:white;
+}
 img{
   height: 50px;
 }

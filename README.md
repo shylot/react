@@ -30,6 +30,9 @@ npm start
 ### 2.5 day_5_component
 该项目主要体现构建组件的方法，以及组件的组合
 
+### 2.6 day_5_state
+该项目主要体现使用state动态传递数据
+
 
 
 

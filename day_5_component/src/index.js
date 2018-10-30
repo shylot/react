@@ -45,7 +45,10 @@ function App(){
  * how to composing
  *
  ******************************************************************************************/
-
+const user = {
+    name:'Shylot·Xu',
+    avatarURL: logo
+}
 //*********************************** before composing ***********************************
 function BeforeComposing(props){
     return (
@@ -105,7 +108,6 @@ function AfterComposing(props){
     );
 }
 
-
 /******************************************************************************************
  *
  * ReactDOM render()
@@ -127,19 +129,7 @@ ReactDOM.render(
     document.getElementById('composing')
 )
 
-const user = {
-    name:"Shylot·Xu",
-    avatarURL: logo
-};
-
-const user1 = {
-    name: "Shylot·Xu",
-    avatarURL: logo
-};
-
 ReactDOM.render(
-
-
     <BeforeComposing
         text="this is comment text"
         date={new Date().toLocaleTimeString()}
@@ -152,9 +142,28 @@ ReactDOM.render(
     <AfterComposing
         text="this is comment text"
         date={new Date().toLocaleTimeString()}
-        author={user1}
+        author={user}
     />,
     document.getElementById('after_composing')
 )
 
+function timer() {
+    const elment = (
+        <div className='comment'>
+            <UserInfo user={user}/>
+            <div className='comment_text'>
+                this is comment text
+            </div>
+            <div className='comment_data'>
+                {new Date().toLocaleTimeString()}
+            </div>
+        </div>
+    );
+    ReactDOM.render(
+        elment,
+        document.getElementById('after_composing_props')
+    )
+}
+
+setInterval(timer,1000);
 
