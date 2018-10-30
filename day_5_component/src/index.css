@@ -20,3 +20,23 @@ body {
   margin: 0;
   padding: 10px 0px;
 }
+
+#comment{
+  background-color: crimson;
+  height: 150px;
+}
+
+#berfore_composing{
+  float: left;
+  padding: 0 50px;
+  color:white;
+}
+#after_composing{
+  float: left;
+  padding: 0 50px;
+  color:white;
+}
+
+img{
+  height: 50px;
+}
